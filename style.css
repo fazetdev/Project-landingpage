@@ -1,106 +1,61 @@
-
-body {
-    margin: 250px;
-    padding: 20px;
-    height: 500px;
+* {
+    outine: 2px solid red;
+  }
+  
+  
     
-}
-
-.firsti,
-.sporti {
-    font-size: 18px;
-    font-family: roboto ;
-    background-color:  rgb(35, 37, 37);
-    height: auto;
-    margin: 20px;
-    padding: 10px;
-}
-h1 {
-    color: aliceblue;
-    font-size: 18px;
-    margin: 15px;
-    padding: 20px;
-
-}
- 
-h2 {
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    color: antiquewhite;
-    
-}
-h3 {
-    text-align: center;
-}
-
-nav {
-
+  
+  
+  .gene {
+    background-color: #1f2937;
+  }
+  
+  header {
     display: flex;
-    justify-content: flex-end;
-    margin: 20px;
-    padding: 10px;
-    font-size: 22px;
-
-    color: antiquewhite;
-    flex: 1;
-}
-
-.thirdi {
-    margin: 50px;
-    padding: 3px;
-    color: antiquewhite;
-}
-button {
-    margin: 10px;
-    padding: 5px;
-    background-color: rgb(23, 23, 228);
-}
-.placi {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px;
-    padding: 10px;
-    height: 200px;
-    
-}
-.carti {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px;
-    background-color: #685f5fe7;
-
-}
-.container {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    padding: 10px;
-    gap: 20px;
-    height: 50px;
-}
-
-.card {
-    display: flex;
-    justify-content: center;
+    justify-content: space-between; /* pushes logo left, nav right */
     align-items: center;
-
-
-
-}
-.box {
+    padding: 20px; /* optional spacing */
+    background-color: #1f2937; /* optional dark background */
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navi {
     display: flex;
-    justify-content: center;
-    margin: 10px;
-    padding: 5px;
-    border: 2px solid blue;
-}
-.lasti {
+    gap: 20px; /* spacing between links */
+  }
+  
+  .navi a {
+    color: #e5e7ebf5;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .firsti {
+    font-size: 42px;
+    color: rgb(163, 42, 42);
+    font-weight: 900;
+  }
+  
+  .firstii {
     font-size: 18px;
-    color: aliceblue;
-    background-color: #09097e;
-}
-footer {
-    text-align: center;
-    background-color: #504e4eee;
-}
+    color: #a4a89f;
+  }
+  
+  .placi {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .carti {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    border: 2px solid green;
+    background-color: rgb(117, 117, 115);
+  }
+  
