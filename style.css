@@ -1,5 +1,5 @@
 * {
-  outlne: 2px solid red;
+  utline: 2px solid red;
 }
 
 body {
@@ -86,7 +86,7 @@ margin: 0px;
   justify-content: center;
   margin: 20px;
   padding: 10px;
-  height: 400px;
+  height: 300px;
   width: auto;
 }
 .card {
@@ -97,7 +97,7 @@ margin: 0px;
   height: 300px;                   /* ensures all cards are same height */
 }
 .feature-image-box {
-  height: 250px;
+  height: 150px;
   width: 120px;
   border: 2px solid #4C89B5;
   border-radius: 10px;
@@ -110,7 +110,7 @@ margin: 0px;
 }
 .card p {
   font-size: 16px;
-  line-height: 1.2;       /* 1.5 × 16px = 24px per line */
+  line-height: 1.5;       /* 1.5 × 16px = 24px per line */
   height: 84px;           /* 3.5 × 24px = 84px total */
   overflow: hidden;
   text-align: center;
@@ -124,7 +124,7 @@ margin: 0px;
   text-align: center;
   font-size: 36px;
   background: #E5E7EB;
-  height: auto;
+  height: 250px;
   width: auto;
 }
 h4 {
